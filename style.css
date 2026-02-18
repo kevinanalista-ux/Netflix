@@ -11,7 +11,7 @@ body {
 
 .container {
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 20%, rgba(20, 20, 20, 0.2) 80%, rgba(20, 20, 20, 1) 100%);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 20%, rgba(20, 20, 20, 0.8) 80%, rgba(20, 20, 20, 1) 100%), url(./imagens/AAAABTSDKzVWO_uE-jTvvn1hXB_T-FGSiyx8VAMXolV_KQin_2B0P_WA5UxPIzlxcgHwbI7SROpycGmd5K8Qh4MEp2Wt2uJnWPQxvNl6.jpg);
     background-size: cover;
     padding: 0.26rem 0.75rem 0 0.75 rem;
 }
@@ -135,6 +135,7 @@ body {
 
 .slider .filme {
     min-width: 19.3%;
+    transition: .2s;
 }
 
 .slider .filme img {
@@ -174,4 +175,8 @@ body {
 
 button, li, i, .categorias img {
     cursor: pointer;
+}
+
+.slider .filme:hover {
+    transform: scale(1.02);
 }
